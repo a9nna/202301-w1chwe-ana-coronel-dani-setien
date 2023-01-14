@@ -1,6 +1,7 @@
 @use "restore/restore";
 @use "typography/typography";
 @use "color-palette/color-palette";
-@use "destination-title/destination-title";
-@use "destination-content/destination-content";
-@use "destination-arrow/destination-arrow";
+@use "destination/destination";
+@use "destination/destination-title";
+@use "destination/destination-content";
+@use "destination/destination-arrow";
