@@ -1,0 +1,38 @@
+@use "../typography/typography";
+@use "../color-palette/color-palette";
+
+.title-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 288px;
+  height: 217px;
+
+  &__title {
+    width: 288px;
+    height: 159px;
+
+    font-family: $font-family-heading-primary;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    color: #ffffff;
+  }
+
+  &__subtitle {
+    width: 288px;
+    height: 42px;
+
+    font-family: $font-family-paragraph;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+}
