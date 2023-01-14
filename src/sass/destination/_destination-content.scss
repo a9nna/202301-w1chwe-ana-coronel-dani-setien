@@ -1,0 +1,69 @@
+@use "../typography/typography";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 16px;
+  gap: 100px;
+  width: 320px;
+  height: 961px;
+
+  &__image {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 320px;
+    border-radius: 16px;
+  }
+  &__text-block {
+    width: 248px;
+    height: 73px;
+  }
+
+  &__title {
+    width: 248px;
+    height: 32px;
+    font-family: typography.$font-family-heading-primary;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+  }
+
+  &__location-container {
+    display: flex;
+    width: 248px;
+    height: 24px;
+  }
+
+  &__location {
+    width: 208px;
+    height: 21px;
+    font-family: typography.$font-family-paragraph;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+  }
+
+  &__logo {
+    position: absolute;
+    height: 30px;
+    top: -20%;
+    left: 4%;
+  }
+}
+
+.text-block {
+  position: absolute;
+  left: 18.84%;
+  bottom: -30%;
+
+  &__location-container {
+    justify-content: flex-end;
+    position: absolute;
+    top: 95%;
+  }
+}
