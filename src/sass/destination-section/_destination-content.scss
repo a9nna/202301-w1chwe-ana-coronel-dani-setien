@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 80px 16px;
+  padding-top: 80px;
   gap: 100px;
   width: 320px;
   height: 961px;
@@ -48,6 +48,10 @@
     color: #fff;
   }
 
+  &__col-block {
+    position: absolute;
+  }
+
   &__logo {
     position: absolute;
     height: 30px;
@@ -58,8 +62,8 @@
 
 .text-block {
   position: absolute;
-  left: 18.84%;
-  bottom: -30%;
+  left: -95px;
+  top: 49px;
 
   &__location-container {
     justify-content: flex-end;
