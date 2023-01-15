@@ -1,4 +1,5 @@
 @use "../typography/typography";
+@use "../media-breakpoints/media-breakpoints";
 
 .content {
   display: flex;
@@ -69,5 +70,67 @@
     justify-content: flex-end;
     position: absolute;
     top: 95%;
+  }
+}
+
+.content .content__image:not(:first-of-type),
+.content__col-block:not(:first-of-type) {
+  visibility: hidden;
+  position: absolute;
+}
+
+@media only screen and (min-width: media-breakpoints.$media-breakpoint-screen-width-only) {
+  .content .content__image:not(:first-of-type),
+  .content__col-block:not(:first-of-type) {
+    visibility: visible;
+    position: relative;
+  }
+
+  .content__col-block {
+    position: absolute;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 32px;
+
+    width: 1376px;
+    height: 980px;
+
+    &__col-block {
+      position: relative;
+    }
+
+    &__image {
+      display: flex;
+
+      padding: 0;
+      width: 497px;
+      height: 661px;
+      border-radius: 26px;
+      margin-left: 32px;
+    }
+    &__location-container {
+      display: flex;
+    }
+    &__text-block {
+      position: relative;
+      top: 237px;
+      left: -504px;
+    }
+
+    &__logo {
+      height: 24px;
+    }
+  }
+}
+.text-block {
+  &__location-container {
+    top: 52px;
+    left: -8px;
   }
 }

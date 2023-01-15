@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "prebuild:dev": "rimraf dist",
-    "prebuild": "rimraf dist",
-    "build:dev": "parcel src/index.html/",
-    "build": "parcel build src/index.html/",
+    "prebuild:dev": "rimraf dist/",
+    "prebuild": "rimraf dist/",
+    "build:dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "prepare": "husky install"
   },
   "keywords": [],
