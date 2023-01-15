@@ -38,21 +38,37 @@
         <div class="client-information__travel-information travel-information">
           <div class="travel-information__destination">
             <label for="destination">Destination</label>
-            <span class="travel-information__destination__box"><input type="text" id="destination"></span>
+            <span class="travel-information__destination__box"><input type="text" id="destination"
+                placeholder="Dublin"></span>
           </div>
           <div class="travel-information__person">
             <label for="person">Person</label>
-            <span class="travel-information__person__box"><input type="text" id="person"></span>
+            <span class="travel-information__person__box"><input type="text" id="person" placeholder="2"></span>
           </div>
         </div>
-        <div class="client-information__date-information">
-          <label for="check-in">Check in</label>
-          <span><input type="text" id="check-in"></span>
-          <label for="check-out">Check out</label>
-          <span><input type="text" id="check-out"></span>
+        <div class="client-information__date-information date-information">
+          <div class="date-information__check-in">
+            <label for="check-in">Check in</label>
+            <span class="date-information__check-in__box"><input type="text" id="check-in"
+                placeholder="Sun, 17th Sep 2020"></span>
+          </div>
+          <div class="date-information__check-out">
+            <label for="check-out">Check out</label>
+            <span class="date-information__check-out__box"><input type="text" id="check-out"
+                placeholder="Tue, 17th Oct 2020"></span>
+          </div>
         </div>
       </div>
-      <a href="#">Book Now</a>
+      <a href="#">
+        <span>Book Now</span>
+        <i>
+          <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M21.7071 8.7071C22.0976 8.31658 22.0976 7.68342 21.7071 7.29289L15.3431 0.928931C14.9526 0.538406 14.3195 0.538407 13.9289 0.928931C13.5384 1.31946 13.5384 1.95262 13.9289 2.34314L19.5858 8L13.9289 13.6569C13.5384 14.0474 13.5384 14.6805 13.9289 15.0711C14.3195 15.4616 14.9526 15.4616 15.3431 15.0711L21.7071 8.7071ZM8.74228e-08 9L21 9L21 7L-8.74228e-08 7L8.74228e-08 9Z"
+              fill="white" />
+          </svg>
+        </i>
+      </a>
     </form>
   </div>
 
