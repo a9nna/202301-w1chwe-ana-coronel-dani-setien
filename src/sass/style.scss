@@ -1,9 +1,9 @@
 @use "restore/restore";
 @use "typography/typography";
 @use "color-palette/color-palette";
-@use "destination/destination";
-@use "destination/destination-title";
-@use "destination/destination-content";
-@use "destination/destination-arrow";
+@use "destination-section/destination";
+@use "destination-section/destination-title";
+@use "destination-section/destination-content";
+@use "destination-section/destination-arrow";
 @use "hero-section/hero-section-header";
-@use "hero-section/hero-section-tittles";
+@use "hero-section/hero-section-title";
