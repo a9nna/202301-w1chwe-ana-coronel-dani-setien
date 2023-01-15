@@ -1,3 +1,5 @@
+@forward "functions/functions";
+
 @use "restore/restore";
 @use "typography/typography";
 @use "color-palette/color-palette";
@@ -7,4 +9,10 @@
 @use "destination-section/destination-arrow";
 @use "hero-section/hero-section-header";
 @use "hero-section/hero-section-title";
+<<<<<<< HEAD
 @use "media-breakpoints/media-breakpoints";
+@use "hero-section/hero-section-form";
+@use "functions/functions";
+=======
+
+>>>>>>> e123ac2 (Create a function to transform pixels to rems)
