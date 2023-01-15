@@ -33,15 +33,25 @@
       <span class="title-hero__title">Start your unforgettable journey with us.</span>
       <span class="title-hero__subtitle">The best travel for your jouney begins now</span>
     </div>
-    <form>
-      <label for="destination">Destination</label>
-      <input type="text" id="destination">
-      <label for="person">Person</label>
-      <input type="text" id="person">
-      <label for="check-in">Check in</label>
-      <input type="text" id="check-in">
-      <label for="check-out">Check out</label>
-      <input type="text" id="check-out">
+    <form class="hero-form">
+      <div class="hero-form__client-information client-information">
+        <div class="client-information__travel-information travel-information">
+          <div class="travel-information__destination">
+            <label for=" destination">Destination</label>
+            <span class="travel-information__destination__box"><input type="text" id="destination"></span>
+          </div>
+          <div class="travel-information__person">
+            <label for="person">Person</label>
+            <span class="travel-information__person__box"><input type="text" id="person"></span>
+          </div>
+        </div>
+        <div class="client-information__date-information">
+          <label for="check-in">Check in</label>
+          <input type="text" id="check-in">
+          <label for="check-out">Check out</label>
+          <input type="text" id="check-out">
+        </div>
+      </div>
       <a href="#">Book Now</a>
     </form>
   </div>
